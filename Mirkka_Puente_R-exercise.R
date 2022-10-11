@@ -39,7 +39,11 @@ d0$tree.name[d0$Girth == max(d0$Girth)]
 # and Volume.
 
 #Diameter
-d0$
+MD <- mean(d0$Girth)
+MV <- mean(d0$Volume)
+MH <- mean(d0$Height)
+
+max_volume <- d0$Volume > MV
 
 
 
